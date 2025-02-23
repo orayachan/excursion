@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+main {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1,
+h2 {
+    margin: 2rem 0;
+}
+
+h2 {
+    color: rgb(128, 128, 128);
+}
+
+p {
+    margin: 1.2rem;
+}
+
+p>a {
+    color: rgb(127, 255, 212);
+}
